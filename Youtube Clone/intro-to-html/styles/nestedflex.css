@@ -1,0 +1,111 @@
+div {
+  font-family: Arial;
+}
+
+.flexbox{
+  display: flex;
+  height: 50px;
+}
+
+.column1{
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column2{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item1{
+  background-color: black;
+  color: white;
+}
+
+.item2{
+  background-color: black;
+  color: white;
+}
+
+.flexbox2{
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.column2-2{
+  width: 200px;
+  background-color: lightblue;
+}
+
+.flex-row-2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.inbox-label{
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container{
+  margin-right: 10px;
+}
+
+.sender-picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.email-content{
+  flex: 1;
+}
+
+.email-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.email-sender-name{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.email-time{
+  font-size: 14px;
+  color: gray;
+}
+
+.subject{
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message{
+  color: gray;
+}

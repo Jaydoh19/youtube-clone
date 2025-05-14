@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/youtube-styles/general.css" />
+    <link rel="stylesheet" href="/youtube-styles/header.css" />
+    <link rel="stylesheet" href="/youtube-styles/video.css" />
+    <link rel="stylesheet" href="/youtube-styles/sidebar.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="yt-icons/hamburger-menu.svg" />
+        <a href="https://www.youtube.com/" target="_blank">
+          <img class="youtube-logo" src="yt-icons/youtube-logo.svg" />
+        </a>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="yt-icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside
+           position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="yt-icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="yt-icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="yt-icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="yt-icons/notifications.svg" />
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img
+          class="current-user-picture"
+          src="channel-pictures/channels4_profile.jpg"
+        />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="yt-icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="yt-icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="yt-icons/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="yt-icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="yt-icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="yt-icons/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" />
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-1.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=n2RNcPRtAiY"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@mkbhd" target="_blank">
+                <p class="video-author">Marques Brownlee</p>
+              </a>
+              <p class="video-stats">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-2.webp" />
+            </a>
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@markiplier" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-2.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=mP0RAo9SKZk"
+                target="_blank"
+              >
+                <p class="video-title">Try Not To Laugh Challenge #9</p>
+              </a>
+              <a href="https://www.youtube.com/@markiplier" target="_blank">
+                <p class="video-author">Markiplier</p>
+              </a>
+              <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-6.webp" />
+            </a>
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-6.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=yXWw0_UfSFg"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Anything You Can Fit In The Circle I'll Pay For
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                <p class="video-author">MrBeast</p>
+              </a>
+              <p class="video-stats">141M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-4.webp" />
+            </a>
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@veritasium" target="_blank">
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-4.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=094y1Z2wpJg"
+                target="_blank"
+              >
+                <p class="video-title">
+                  The Simplest Math Problem No One Can Solve - Collatz
+                  Conjecture
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@veritasium" target="_blank">
+                <p class="video-author">Veritasium</p>
+              </a>
+              <p class="video-stats">18M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=ixmxOlcrlUc"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-9.webp" />
+            </a>
+            <div class="video-time">13:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS"
+                target="_blank"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-9.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=ixmxOlcrlUc"
+                target="_blank"
+              >
+                <p class="video-title">The SECRET to Super Human STRENGTH</p>
+              </a>
+              <a
+                href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS"
+                target="_blank"
+              >
+                <p class="video-author">ThenX</p>
+              </a>
+              <p class="video-stats">20M views &#183; 3 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=R2vXbFp5C9o"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/thumbnail-10.webp" />
+            </a>
+            <div class="video-time">7:53</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a
+                href="https://www.youtube.com/@BusinessInsider"
+                target="_blank"
+              >
+                <img
+                  class="profile-picture"
+                  src="channel-pictures/channel-10.jpeg"
+                />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=R2vXbFp5C9o"
+                target="_blank"
+              >
+                <p class="video-title">
+                  How The World's Largest Cruise Ship Makes 30,000 Meals Every
+                  Day
+                </p>
+              </a>
+              <a
+                href="https://www.youtube.com/@BusinessInsider"
+                target="_blank"
+              >
+                <p class="video-author">Business Insider</p>
+              </a>
+              <p class="video-stats">14M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=LQkjLQM77Xw"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t1.avif" />
+            </a>
+            <div class="video-time">13:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Quadrant" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c1.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=LQkjLQM77Xw"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Lando Norris Plays F1 24 For The First Time!
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@Quadrant" target="_blank">
+                <p class="video-author">Quadrant</p>
+              </a>
+              <p class="video-stats">5.9M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=h6zdSG-VCAw"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t2.avif" />
+            </a>
+            <div class="video-time">14:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@penguinz0" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c2.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=h6zdSG-VCAw"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Does This Actually Deserve All the Hype
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@penguinz0" target="_blank">
+                <p class="video-author">penguinz0</p>
+              </a>
+              <p class="video-stats">1.4M views &#183; 4 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=6Ke2vQsjh8I"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t3.avif" />
+            </a>
+            <div class="video-time">6:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@doozyspeaks" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c3.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=6Ke2vQsjh8I"
+                target="_blank"
+              >
+                <p class="video-title">
+                  how you play games is how you do everything.
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@doozyspeaks" target="_blank">
+                <p class="video-author">doozy</p>
+              </a>
+              <p class="video-stats">1.8M views &#183; 11 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=2n17yabSmRM"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t4.avif" />
+            </a>
+            <div class="video-time">16:14</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Nanogenix" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c4.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=2n17yabSmRM"
+                target="_blank"
+              >
+                <p class="video-title">The Rise and Fall of Sparking Zero</p>
+              </a>
+              <a href="https://www.youtube.com/@Nanogenix" target="_blank">
+                <p class="video-author">Nanogenix</p>
+              </a>
+              <p class="video-stats">443K views &#183; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=ewCkl1KLMXg"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t5.avif" />
+            </a>
+            <div class="video-time">12:12</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@NBCSports" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c5.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=ewCkl1KLMXg"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Chelsea v. Liverpool | PREMIER LEAGUE HIGHLIGHTS | 5/4/2025 |
+                  NBC Sports
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@NBCSports" target="_blank">
+                <p class="video-author">NBC Sports</p>
+              </a>
+              <p class="video-stats">461K views &#183; 11 hours ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=Iw3OfX9cYoI"
+              target="_blank"
+            >
+              <img class="thumbnail" src="/thumbnails/t6.avif" />
+            </a>
+            <div class="video-time">24:41</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@MoreJynxzi" target="_blank">
+                <img class="profile-picture" src="channel-pictures/c6.jpg" />
+              </a>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://www.youtube.com/watch?v=Iw3OfX9cYoI"
+                target="_blank"
+              >
+                <p class="video-title">
+                  Jynxzi Finally Hit ULTIMATE CHAMPION (Clash Royale)
+                </p>
+              </a>
+              <a href="https://www.youtube.com/@MoreJynxzi" target="_blank">
+                <p class="video-author">Jynxzi Live</p>
+              </a>
+              <p class="video-stats">456K views &#183; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

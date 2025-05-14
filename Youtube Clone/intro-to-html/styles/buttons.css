@@ -1,0 +1,160 @@
+
+      .subscribe-button {
+        background-color:rgb(200, 0, 0);
+        color: white;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        margin-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+      }
+    
+      .subscribe-button:hover{
+        opacity: 0.8;
+    }
+    
+    .subscribe-button:active {
+      opacity: 0.4;
+    }
+    
+      .join-button {
+        background-color: white;
+        border: 1px solid rgb(41, 118, 221);
+        color: rgb(41, 118, 221);
+        border-radius: 2px;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        vertical-align: top;
+        transition: background-color 0.15s, color 0.15s;
+    
+      }
+    
+      .join-button:hover{
+          background-color: rgb(41, 118, 221);
+          color: white;
+        }
+    
+        .join-button:active{
+          opacity: 0.7;
+        }
+    
+
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: 0px solid rgb(29, 155, 240);
+        border-radius: 18px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        vertical-align: top;
+        transition: box-shadow 0.15s, opacity 0.15s;
+    
+      }
+    
+    .tweet-button:hover{
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    }
+    
+    .tweet-button:active {
+      opacity: 0.4;
+    }
+
+    
+    
+
+      .amazon-text {
+        color: rgb(0, 113, 133);
+        font-size: 18px;
+        font-weight: bold;
+      }
+    
+      .amazon-text:hover {
+        color: rgb(226, 107, 28)
+      }
+    
+    
+
+    
+
+      .Nike-text{
+        font-size: 32px;
+        font-weight: bold;
+      }
+ 
+    
+
+      .price-text {
+        color: green;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+    
+
+      .delivery-text {
+        font-size: 20px;
+      }
+  
+    
+   
+      .cart-text{
+        background-color: rgb(255, 216, 20);
+        border: 0px solid rgb(255, 216, 20);
+        margin: 8px;
+        height: 35px;
+        width: 115px;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    
+      .cart-text:hover{
+        background-color: rgb(240, 203, 20);
+        transition: background-color 0.15s, opacity 0.15s;
+      }
+    
+      .cart-text:active {
+        opacity: 0.7;
+      }
+    
+
+    
+  
+      .buy-text{
+        background-color: rgb(255, 164, 20);
+        border: 0px solid rgb(255, 216, 28);
+        margin: 8px;
+        height: 35px;
+        width: 115px;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+    
+      .buy-text:hover{
+        background-color: rgb(236, 153, 19);
+        transition: background-color 0.15s, opacity 0.15s;
+      }
+    
+      .buy-text:active {
+        opacity: 0.7;
+      }
+   
